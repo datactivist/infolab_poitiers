@@ -2,8 +2,6 @@
 
 ### Data' Sandwich - 27/06/2019 (Cobalt Poitiers)
 
-![](./dataviz_sandwich/img/NebuleusePublicPrive.png)
-
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
 * **Support** : [Visualiser les chiffres (présentation complète en ligne)](https://datactivist.coop/infolab_poitiers/dataviz_sandwich/)
