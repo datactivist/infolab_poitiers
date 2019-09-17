@@ -1,0 +1,172 @@
+---
+title: "Formation à l'organisation d'un sprint data"
+subtitle: "Préparation du hackaviz de Poitiers"
+author: "Samuel Goëta, Datactivist"
+date: "Poitiers, `r Sys.Date()`"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+params:
+  event: Formation au sprint data
+  slug: infolab_poitiers/formation_hackaviz
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+class: middle, inverse, center
+
+# Les principes d’un sprint data réussi 
+
+---
+
+### Au fait, c'est quoi un sprint data ? 
+
+.pull-left[
+** Une tentative de définition : **
+
+Tout événement de durée variable pendant lequel des personnes se rassemblent pour résoudre des problèmes, classiquement en développant des outils informatiques. 
+
+C'est un format de co-création, associant sur un temps court des profils et des compétences diverses au sein d'équipes projet dans une ambiance de travail conviviale, sous le signe de l'intelligence collective, du partage de compétences et de connaissances. 
+]
+
+.pull-right[
+
+Les 3 ingrédients essentiels d'un sprint data : 
+
+* **des défis** qui sont des problèmes contextualisés que les participants devront résoudre en un temps limité ; 
+
+* **des données** souvent ouvertes à l'occasion du sprint data qui constituent le matériau sur lequel les participants travaillent 
+
+* **des participants** bénévoles qui prennent ce temps pour apprendre, partager leurs connaissances, les mettre au défi, s'entrainer et rencontrer d'autres participants. 
+]
+
+---
+### Historique : du rite hacker à la prolifération 
+
+![](./img/appsfordemocracycontest.jpg)
+
+Historiquement, les sprints data répliquent un des rites des hackers : les *« marathons »* de développement organisés pendant les conférences des communautés issues du logiciel libre. 
+
+Dans le domaine des données ouvertes, *Apps for Democracy* à Washington en 2008 a été un des premiers concours de développement de services. Quelques mois après le lancement de l’App Store d’Apple, a inspiré le développement de nombreux concours d’applications avec un guide de réplication. 
+
+En France, premier concours à Rennes en 2010. Depuis 2014, tous les grands ministères et institutions en ont organisé un avec parfois des dérives qui ont été dénoncées. 
+
+---
+### Les sprint data : le bon…
+
+
+* **La mobilisation des parties prenantes internes et externes : ** pour avoir un nouveau regard sur les problèmes, c’est l’addition des compétences et des expertises qui produit **un mélange étonnant fondé sur l’intelligence collective et le principe selon lequel *« le tout vaut plus que la somme des parties. »* **
+
+* **L'expérience stimulante** : 
+
+La seconde valeur, c’est l’expérience : pour les participants, l’excitation d’un hackathon peut être très stimulante. L’expérience du hackathon casse les habitudes et sort de l’ordinaire, comme l’explique Stéphane Vincent dans InternetActu.net : 
+
+> A court terme, ce type de dispositifs transforme les participants eux-mêmes, en particulier ceux directement concernés par les projets. Ils se montrent souvent d’abord sceptiques (« Mais qu’est-ce que ces gens peuvent bien connaître à mon domaine ? »), puis voient le changement s’opérer. […] Quand ces cessions sont bien menées, elles font beaucoup plus que produire de l’innovation, elles produisent du sens.
+
+Simon Chignard note que l’expérience du hackathon est conçue comme un moment et un monde à part : 
+
+> l’unité de lieu (on vit en vase clos pendant 48 heures), le travail en petit groupe d’individus qui ne se connaissaient pas nécessairement auparavant (la colonie de vacances est l’archétype du team building, c’est bien connu), la contrainte de temps (à la fin chaque groupe présente son projet), voire la compétition (quand le hackathon donne lieu à un vote).
+
+Le problème c’est que cette expérience est souvent mal restituée par la suite, d’où l’importance de la documentation et de l'accompagnement qui suivront. 
+
+### Créer une énergie positive
+
+Pour Joshua Tauberer, organisateur d’Open Data Day DC et auteur de [hackathon.guide](https://hackathon.guide/), un hackathon réussit le doit d’abord à l’énergie positive qu’il dégage. Les hackathons doivent éviter de dériver vers une culture maladive de compétition et d’attentes trop élevées imposée aux participants. Selon lui, le premier objectif d’un hackathon doit être de renforcer une communauté tout en restant ouvert à celles et ceux qui n’ont jusqu’alors pas ou peu utilisé de données dans leur vie. On peut ainsi voir un hackathon comme une occasion de découvrir et d’apprendre, que ce soit pour ses organisteurs ou pour ses participants.
+
+
+---
+### …La brute…
+
+
+---
+### … et le truand
+
+Voici quelques uns des écueils fréquemment rencontrés :
+
+* **Trop de pression ? ** les participants à un hackathon prennent sur leur temps personnel, généralement le weekend mais certains organisateurs n’ont pas hésité à soumettre les participants à une forte pression qui ont pu dégrader l’expérience.
+
+* **Des attentes démesurées ?** certains organisateurs de hackathon ont promis la lune avec des résultats inatteignables en un temps court, il n'en résulte que de la déception.
+
+* **De l'exploitation ?** les participants ne sont pas rétribués, ce qui a été dénoncé comme une forme de travail déguisé en évènement décontracté et informel
+
+** Du *workaholism* ? **  (dépendance au travail jusqu’à l’épuisement), en encourageant les participants à travailler non stop, week-end et nuits comprises. 
+
+En réaction, le concept du “[hackacon](http://www.hackacon.fr/)” parodie le hackathon en développant des projets inutiles de manière ludique pendant un weekend (voir [reportage d’Arte](http://tracks.arte.tv/fr/hackacon)). 
+
+---
+
+### Les facteurs clés de succès
+
+
+En filigrane du Hackathon Guide, Joshua Tauberer pose la question de la dimension compétitive du hackathon. La sélection de lauréats et la remise de prix peuvent en effet attirer les meilleurs et galvaniser les participants. Mais elle peut aussi détériorer l’atmosphère et créer une pression inutile. Il n’est pas indispensable de remettre des prix aux meilleurs projets. Il faut en tout cas absolument éviter que la sélection des lauréats donne l’impression aux participants qui n’ont pas été sélectionnés d’être perdant ! On peut aussi envisager que tous les participants repartent avec un prix ou une mention. Il faut donc penser à valoriser le travail de tout le monde et à remercier l’investissement de chacun.
+
+
+La documentation 
+La communication (la troisième valeur d'un sprint data selon Simon Chignard) doit ainsi **ne pas céder aux sirènes de la compétition**. Une organisation qui met au point un sprint data doit aussi selon [l’association Regards Citoyens](https://www.regardscitoyens.org/apprenons-des-echecs-de-la-dila-episode-1-comment-faire-de-lopen-data/) ne pas trop se concentrer sur cette dimension communicationnelle au détriment de l’ouverture et de la qualité des données : 
+
+> Si les données ont bien été libérées sous conditions Open Data, les réutilisations arriveront sans doute d’elles-mêmes. Ne perdez pas donc votre temps avant même l’ouverture à préparer des communications, hackathons, sites officiels de réutilisation […] La tâche d’ouverture est claire et balisée, le reste ne peut et ne doit venir qu’ensuite !
+
+Maintenant que vous avez pris connaissance du contenu et des facteurs de succès d'un sprint data, passons à la pratique et préparons notre évènement !
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+
+
