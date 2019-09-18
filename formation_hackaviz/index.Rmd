@@ -321,6 +321,6 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [samuell@atactivist.coop](mailto:samuel@datactivist.coop)
+Contact : [samuel@atactivist.coop](mailto:samuel@datactivist.coop)
 
 
