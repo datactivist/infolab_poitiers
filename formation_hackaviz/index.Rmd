@@ -81,7 +81,10 @@ class: middle, inverse, center
 
 Tout événement de durée variable pendant lequel des personnes se rassemblent pour résoudre des problèmes, classiquement en développant des outils informatiques. 
 
-C'est un format de co-création, associant sur un temps court des profils et des compétences diverses au sein d'équipes projet dans une ambiance de travail conviviale, sous le signe de l'intelligence collective, du partage de compétences et de connaissances. 
+C'est un format de co-création, associant sur un temps court des profils et des compétences diverses* au sein d'équipes projet dans une ambiance de travail conviviale, sous le signe de l'intelligence collective, du partage de compétences et de connaissances.
+
+.footnote[\* Voir [la matrice d'auto-évaluation](https://docs.google.com/presentation/d/1DCGivDqF0AEg4QCDhAwL4plZIkzL6iDxwVsJMOdmr3w/edit?usp=sharing).]
+
 ]
 
 .pull-right[
@@ -220,10 +223,10 @@ De notre expérience, voici quelques points d'attention à prendre en compte qui
 ### Conseil 4 : mettre en place des espaces de discussion et de documentation
 
 La documentation des projets est essentielle pour s'assurer que les projets réalisés soient exploitables par la suite. Quelques outils sont disponibles : 
-* Framsoft propose notamment [Framateam](https://framateam.org/login), un équivalent libre de Slack
-* [Discourse](http://www.discourse.org) propose une interface très conviviale, permet d'organiser la conversation et de créer un sujet par équipe où elle pourra déposer sa documentation.
-* [Dribdat](https://github.com/dataletsch/dribdat), un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L'outil permet aussi d'avoir un excellent rendu ([exemple](https://hack.opendata.ch/project/163)) dans la documentation des projets. 
-* L'Atelier des Chercheurs propose aussi l'[OpenDoc](http://www.lopendoc.org/), une plate-forme en ligne ([documentation](https://latelier-des-chercheurs.fr/outils/lopendoc) et [code](https://github.com/l-atelier-des-chercheurs/lopendoc)) dédiée à la documentation d’activités de tout type, de manière chronologique et collaborative. 
+* Framsoft propose notamment [**Framateam**](https://framateam.org/login), un équivalent libre de Slack
+* [**Discourse**](http://www.discourse.org) propose une interface très conviviale, permet d'organiser la conversation et de créer un sujet par équipe où elle pourra déposer sa documentation (comme nous l'avions fait pour [le Challenge Data avec Sciences Po](https://teamopendata.org/c/Challenge-Data) sur notre plateforme [#teamopendata](https://teamopendata.org)) ;
+* [**Dribdat**](https://github.com/dataletsch/dribdat), un outil libre de documentation des projets spécifiquement à destination des hackathons et sprint data. L'outil permet aussi d'avoir un excellent rendu ([exemple](https://hack.opendata.ch/project/163)) dans la documentation des projets ; 
+* L'Atelier des Chercheurs propose aussi l'[**OpenDoc**](http://www.lopendoc.org/), une plate-forme en ligne ([documentation](https://latelier-des-chercheurs.fr/outils/lopendoc) et [code](https://github.com/l-atelier-des-chercheurs/lopendoc)) dédiée à la documentation d’activités de tout type, de manière chronologique et collaborative. 
 
 
 ---
