@@ -112,7 +112,7 @@ En France, premier concours à Rennes en 2010. Depuis 2014, tous les grands mini
 
 * **La mobilisation des parties prenantes internes et externes** : un mélange étonnant fondé sur l’intelligence collective et le principe selon lequel « *le tout vaut plus que la somme des parties.*» 
 
-* **L'expérience stimulante** : pour un participant comme un organisateur, l’excitation d’un hackathon peut être très stimulante. Pour les évènements en présentiels, Simon Chignard note que l’expérience est conçue comme le théatre classique
+* **L'expérience stimulante** : pour un participant comme un organisateur, l’excitation d’un hackathon peut être très stimulante. Pour les évènements en présentiels, Simon Chignard note que l’expérience est conçue comme le théatre classique avec ses trois unités (temps, lieu, action).
 
 * **L'énergie positive** : un sprint data sert avant tout à renforcer les liens avec les réutilisateurs actuels ou potentiels, il faut le garder ouvert à celles et ceux qui n’ont jusqu’alors pas ou peu utilisé de données dans leur vie.
 
@@ -198,7 +198,7 @@ De notre expérience, voici quelques points d'attention à prendre en compte qui
 
 ---
 
-### Conseil 2 : préparer les données en amont
+### Conseil 2 : préparer les données bien en amont
 
 * Si de nouvelles données sont ouvertes, prévoir de se les procurer 2-3 semaines avant l'évènement. Ce délai vous permettra de contrôler le contenu des données, d'améliorer leur qualité…
 
@@ -236,20 +236,19 @@ class:inverse, middle, center
 Même si chaque événement a ses particularités, on retrouve dans un sprint data les trois temps du mouvement créatif tels que l'a défini Tim Brown d'IDEO dans le processus créatif du [design thinking](https://fr.wikipedia.org/wiki/Design_thinking).
 
 ![](./img/ideo.png)
-```
 
 ---
 ### Inspiration : expliciter le contexte et les défis
 
-Objectif : définir le problème et expliciter les défis pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.
+🎯**Objectif** : définir le problème et **expliciter les défis** pour s’assurer qu’ils soient bien compris par les participants. Le public doit pouvoir reformuler les défis proposés et développer une compréhension partagée des enjeux.
 
 A quels problèmes essayez-vous de répondre avec ce hackathon ? Pourquoi l’organisez vous ? Qu’attendez-vous comme projet concret des participants ? Quels défis leurs sont proposés ? 
 
-Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de réappropriation dans laquelle le public doit pouvoir reformuler les défis proposés et où se développe une compréhension partagée des enjeux.
+Il est important de prendre ici une posture d’empathie avec les participants pour s’assurer qu’ils comprennent et adhèrent aux défis qui sont proposés. C’est une phase de réappropriation dans laquelle le public doit pouvoir reformuler les défis proposés et où se développe **une compréhension partagée des enjeux**.
 
 ---
 ### Idéation : formuler de nouvelles idées autour des défis
-La seconde phase consiste à formuler une multitude d’idées autour du problème défini dans la phase précédente. Les participants sont incités à explorer de nouvelles solutions aux défis et, après un vote ou une phase de délibération, sélectionner les propositions pour constituer un nombre limité d’équipes.
+🎯**Objectif** :**formuler une multitude d’idées** autour du problème défini dans la phase précédente. Les participants sont incités à explorer de nouvelles solutions aux défis et, après un vote ou une phase de délibération, sélectionner les propositions pour constituer un nombre limité d’équipes.
 
 2 temps : 
 * d’abord les participants doivent **diverger** en livrant un maximum d’idées. Aucune proposition ne doit être écartée, tout est bon à prendre et chacun doit se sentir libre de contribuer. Des post-its suffiront à noter toutes les pistes.
@@ -262,18 +261,21 @@ La seconde phase consiste à formuler une multitude d’idées autour du problè
 
 La troisième phase occupe la majeure partie de l’événement. Il s'agit du prototypage, voire du développement, dans un temps limité, des visualisations de données ou des services envisagés pour répondre aux défis.
 
-L’événement se terminera par l’attribution d’un prix à valeur symbolique, pour valoriser les projets jugés les plus aboutis par un jury constitué d’experts de l’analyse de données ou de la thématique traitée. Il n’y a pour autant pas de gagnant ni de perdant : cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du sprint data.
+L’événement se terminera par l’**attribution d’un prix à valeur symbolique**, pour valoriser les projets jugés les plus aboutis par un jury constitué d’experts de l’analyse de données ou de la thématique traitée. 
+
+Il n’y a pour autant pas de gagnant ni de perdant : cette sélection sert surtout à donner de la visibilité aux projets les plus emblématiques issus du sprint data.
 
 ---
-
 ### Le mentoring
 
-Les mentors, des experts des sujets traités mobilisés sur une période courte pour accompagner les équipes, peuvent considérablement accélerer les projets des participants et les débloquer dans certaines situations. Les mentors généralement font la tournée des projets et proposent leur aide selon leurs compétences. 
+Les mentors, des experts des sujets traités mobilisés sur une période courte pour accompagner les équipes, peuvent considérablement accélerer les projets des participants et les débloquer dans certaines situations. 
 
-Lors du Dataviz Challenge, nous avions prévu un mentoring continu avec des mentors internes au ministère expliquant les données, leur analyse et les politiques éducatives ainsi que des mentors externes spécialistes de l'analyse et de la visualisation de données et des politiques éducatives territoriales.
+Les mentors généralement font la tournée des projets et proposent leur aide selon leurs compétences. 
 
+Il faut prendre garde à avoir trop de mentors qui entraveraient le fonctionnement de l'évènement. L'idée est d'avoir des mentors présent sur toute la durée de l'évènement. 
 
 ---
+
 ### Les présentations des projets
 
 Les pitchs des projets durent en général 5 minutes. Quelques conseils : 
@@ -303,7 +305,7 @@ Nous suggérons les critères suivants d'évaluation des projets :
 ### L'après sprint 
 
 Le suivi d'un sprint data est tout aussi important que sa préparation ! Quelques points d'attention : 
-* **La reprise de la documentation** :certains projets auront une documentation succinte et, en l'absence de cette documentation, vous ne pourrez pas donner de suite aux projets. Il faut donc prévoir de contactant certains participants des équipes concernés individuellement.
+* **La reprise de la documentation** : certains projets auront une documentation succinte et, en l'absence de cette documentation, vous ne pourrez pas donner de suite aux projets. Il faut donc prévoir de contactant certains participants des équipes concernés individuellement.
 
 * **Le sondage et le débriefing**  : envoyer rapidement un courriel de remerciement contenant un sondage de satisfaction (voir modèle à [cette adresse]( https://framaforms.org/dataviz-challenge-debrief-participant-1553679222)). 
 
@@ -315,6 +317,6 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [samuell@datactivist.coop](mailto:samuel@datactivist.coop)
+Contact : [samuell@atactivist.coop](mailto:samuel@datactivist.coop)
 
 
