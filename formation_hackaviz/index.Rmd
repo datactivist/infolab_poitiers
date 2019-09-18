@@ -57,6 +57,7 @@ Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
+Cette formation reprend en grande partie le contenu du guide pour l'organisation d'un sprint data réalisé avec le lab 110bis du ministère de l'Education nationale : https://datactivist.coop/datavizchallenge/guide/docs/. 
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
