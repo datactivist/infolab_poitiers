@@ -15,4 +15,4 @@
 
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
-* **Support** : à venir ...
+* **Support** : [Factualité, ou comment corriger ses mauvaises intuitions par les données](https://datactivist.coop/infolab_poitiers/facto_sandwich/)
