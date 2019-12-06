@@ -22,16 +22,666 @@ layout: true
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
 
+
 ---
 
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
 
-background-image: url("https://media.giphy.com/media/ZvkHeRqClNgUE/giphy.gif")
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+
+.center[
+## Hackaviz du Grand Poitiers
+]
+
+Rappel :
+**Les participant·e·s (seul·e·s ou en équipe) ont jusqu'au 6 décembre pour proposer leur création**. L'équipe open data du Grand Poitiers sera là pour vous accompagner, notamment sur le [forum](https://teamopendata.org/c/hackaviz-du-grand-poitiers) créé pour l'occasion sur le portail [#TeamOpenData](https://teamopendata.org/) de Datactivist.
+
+**La remise des prix est prévue le 10 décembre 2019 à 18h à Cobalt après délibération du jury**.
+
+Le jury est composé de :
+* Thierry Pasquier, Espace Pierre Mendès France
+* Anthony Deniau, SPN-Cobalt
+* Cyril Chesse, les usines nouvelles 
+* Bruno Delion, datajournaliste, Centre Presse et Nouvelle République
+* Vincent Cibelli, directeur Tata Consultancy Services (TCS)
+* Maiwen Le Martrert, Direction communication externe Grand Poitiers
+* Séverine Ferrant, responsable « Valorisation des données » du Grand Poitiers.
+
+
+---
+
+background-image: url("https://media.giphy.com/media/8g9GrTWZslSI8/giphy.gif")
 class: center, top, inverse
 
-# Présentation en cours d'assemblage ...
+## et les défis sont ...
+
 
 ---
+
+## Les défis du hackaviz !
+
+* Défi 1 : Pictavie
+* Défi 2 : Permis de construire
+* Défi 3 : SDE (Schéma Directeur des Energies)
+* Défi 4 : Mariages à Poitiers
+* Défi 5 : les nuitées dans les établissements
+
+Toutes les bases de données sont [sur la plateforme open data du Grand Poitiers](https://data.grandpoitiers.fr/pages/accueil/).
+
+Vous trouverez toutes les informations sur les bases de données, leurs enjeux et problématiques sur [le forum](https://teamopendata.org/c/hackaviz-du-grand-poitiers).
+
+---
+
+background-image: url("./img/rosling_factfullness.jpg")
+class: center, top, inverse
+
+# 1. Hans Rosling et la factualité
+
+---
+
+## De la médecine aux Ted Talks
+
+Hans Rosling était un médecin et statisticien suédois qui a longtemps travaillé sur des terrains de grande pauvreté. Notamment au Mozambique où il a été le seul généraliste pour une province du Nord qui comptait ... 300000 habitant·e·s.
+
+Revenu en Suède pour enseigner la médecine et les statistiques à l'université de Karolinska (près de Stockholm), il fonde en 2006 le site Gapminder avec pour objectif de créer des supports pédagogiques :
+> *"The foundation aims to chart trends and fight what it calls “devastating ignorance with fact-based worldviews everyone can understand.”"*
+
+Il popularise sa vision avec une conférence Ted au titre qui résume bien son approche : *[Les meilleures statistiques jamais vues](https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen?language=fr)*. Devenue virale, cette vidéo le rend célèbre auprès du grand public dans le monde entier.
+
+[Il est décédé le 9 février 2017](https://www.nytimes.com/2017/02/09/world/europe/hans-rosling-dead-statistician.html) d'un cancer à Upsalla, en Suède.
+
+---
+.center[
+## Gapminder
+]
+.pull-left[
+
+![](./img/mindthegap.jpeg)]
+
+.pull-right[Le nom de la fondation Gapminder est inspiré de l'affichage et des annonces du métro londonnien : *"attention à la marche !"*. Que nous pourrions ici traduire plus littéralement : *"attention à la marge"*. Tout le principe du site est en effet de monter la différence sensible entre les idées reçues et les faits constatés.
+
+]
+
+
+
+Le site propose de nombreux outils :
+* [des graphs interactifs](https://www.gapminder.org/tools/#$chart-type=bubbles) ;
+* un projet photographique, [Dollar street](https://www.gapminder.org/dollar-street/), pour comparer les modes de vie ;
+* [des vidéos](https://www.gapminder.org/videos/) ;
+* et un test.
+
+---
+
+## The "ignorance project"
+.center[
+![](./img/ignoranceproject.jpg)
+]
+
+Le [ignorance project](https://www.gapminder.org/ignorance/) est un questionnaire visant à mettre en évidence la méconnaissance généralisée sur des faits de sociétés essentiels :
+* démographie ;
+* économie ;
+* société.
+
+Soumis à des publics variés partout dans le monde, ce test est surnommé le *"tests du chimpanzé"*. Hans Rosling propose en effet de comparer le résultat des participant·e·s à celui d'un chimpanzé qui choisirait totalement au hasard et aurait donc, en moyenne, 33% de bonnes réponses.
+
+---
+
+
+background-image: url("https://media.giphy.com/media/BwS2DuCyc98K4/giphy.gif")
+class: center, top, inverse
+
+## Et maintenant, c'est à vous de passer le test !
+
+.footnote[
+### Prenez une feuille de papier
+C'est un QCM, vous numeroterez vos réponses de 1 à 13.
+]
+---
+
+
+background-image: url("https://media.giphy.com/media/L17xM7PvLcqJggsCYa/giphy.gif")
+class: left, top, inverse
+
+## Quelques précisions utiles
+
+.footnote[
+1. ce questionnaire date de 2018, les chiffres sont donc relativement à jour.
+2. quand ce n'est pas précisé, les données portent sur le monde entier.
+3. quand ce n'est pas précisé, les chiffres portent sur des moyennes.
+]
+
+---
+
+### 1. Ces 20 dernières années, la proportion de la population mondiale vivant dans une extrême pauvreté...
+
+
+A. A presque doublé	
+
+B. Est restée à peu près stable	
+
+C. A plus que diminué de moitié
+
+---
+
+### 2. Aujourd’hui, dans quelle proportion les enfants de 1 an sont-ils vaccinés contre les maladies courantes ?
+
+A. 80%
+
+B. 50%
+
+C. 20%
+
+---
+
+### 3. Comment a évolué le nombre de morts par cataclysme naturel ces cent dernières années ?
+
+A. Il a plus que doublé	
+
+B. Il est resté à peu près stable	
+
+C. Il a diminué de plus de moitié
+
+---
+
+### 4. Où vit la majorité de la population mondiale ?	
+
+A. Dans les pays à faibles revenus	
+
+B. Dans les pays à revenus moyens	
+
+C. Dans les pays à hauts revenus	
+
+
+---
+
+### 5. Dans le monde entier, les hommes de 30 ans ont en moyenne passé 10 ans à l’école. Combien d’années les femmes du même âge ont-elles passé à l’école ?	
+
+A. 9 ans	
+
+B. 6 ans
+
+C. 3 ans	
+
+---
+
+### 6. Le monde compte aujourd’hui environ 7 milliards de personnes. Quelle carte représente le mieux leur localisation ?
+
+A. 1 milliard en Amérique, 1 milliard en Europe (y compris la Russie et la Turquie), 1 milliard en Afrique, 4 milliards en Australie et en Asie.
+
+B. 1 milliard en Amérique, 1 milliard en Europe (y compris la Russie et la Turquie), 2 milliard en Afrique, 3 milliards en Australie et en Asie
+
+C. 2 milliards en Amérique, 1 milliard en Europe (y compris la Russie et la Turquie), 1 milliard en Afrique, 3 milliards en Australie et en Asie.
+
+---
+
+### 7. L’ONU prévoit que d’ici 2100, la population mondiale aura augmenté de 4 milliards de personnes. Quelle en est la principale raison ?	
+
+A. Il y aura plus d’enfants (moins de 15 ans)	
+
+B. ll y aura plus d’adultes (entre 15 et 74 ans)
+
+C. Il y aura plus de personnes très âgées (75 ans et plus)	
+
+---
+
+### 8. Dans tous les pays à faibles revenus, combien de filles finissent l’école primaire ?	
+
+A. 20%	
+
+B. 40%
+
+C. 60%
+
+---
+
+### 9. Il y a aujourd’hui 2 milliards d’enfants entre 0 et 15 ans dans le monde. Combien d’enfants y aura-t-il en 2100, selon les Nations Unies ?	
+
+A. 4 milliards	
+
+B. 3 milliards	
+
+C. 2 milliards
+
+---
+
+
+### 10. Quelle proportion de la population mondiale a accès à l’électricité ?	
+
+A. 20%	
+
+B. 50%	
+
+C. 80%	
+
+---
+
+### 11. Quelle est l’espérance de vie moyenne aujourd’hui dans le monde ?	
+
+A. 50 ans	
+
+B. 60 ans	
+
+C. 70 ans
+
+---
+
+### 12. En 1996, les tigres, les pandas géants et les rhinocéros noirs furent classés comme espèces en danger. Combien de ces trois espèces sont les plus menacées aujourd’hui ?	
+
+A. Aucune	
+
+B. Une
+
+C. Deux
+
+
+---
+
+### 13. Les experts du climat mondial estiment que, dans les cent prochaines années, la température moyenne...	
+
+A. Augmentera
+
+B. Restera la même	
+
+C. Baissera
+
+---
+.center[
+### Le verdict
+]
+.pull-left[
+Les réponses
+1. C
+2. A
+3. C
+4. B
+5. A
+6. A
+7. B
+8. C
+9. C
+10. C
+11. C
+12. A
+13. A]
+
+.pull-right[
+Vous pouvez calculer votre score mais, schématiquement :
+**si vous avez moins de 5 bonnes réponses, vous répondez avec autant de justesse que si vous aviez répondu au hasard**.
+
+![](./img/chimpanze.jpg)
+
+.footnote[
+Crédit photo : [Aaron Logan](https://en.wikipedia.org/wiki/File:Lightmatter_chimp.jpg).]
+]
+
+---
+
+
+background-image: url("https://media.giphy.com/media/8nhgZZMKUicpi/giphy.gif")
+class: center, top, inverse
+
+# 2. Les instincts dramatiques
+
+--
+
+.footnote[Si vous vous posiez la question : ce n'est pas le même chimpanzé qu'à la page précédente.]
+
+---
+
+## Dix façons de se tromper
+
+.pull-left[Dans son ouvrage *Factfullness* (Factualité), Hans Rosling postule que notre vision biaisée du monde s'explique non pas par la réflexion mais par un resenti général, amplifié par la communication (médias, discours politiques, etc.). Derrière cette vision sombre, il identifie dix mauvais réflexes de pensée : les **instincts dramatiques**.
+
+Reposant sur des idées reçues, biais cognitifs ou déformations culturelles, ces instincts font barrage à une vision réaliste du monde. Et, par conséquent, à une action rationnelle qui permettrait de le rendre meilleur.
+]
+
+.pull-right[![](./img/dramatic_instincts.jpg)
+]
+
+---
+
+## 1. L'instinct du fossé
+
+"Eux" contre "nous", "ici" et "là-bas" ... *l'instinct de fossé* est la tournure d'esprit qui consiste à tracer une ligne entre deux parties distinctes de la population dont les modes de vie, comportement, etc. les rendraient incomparables.
+
+C'est cette idée qui se cache sous les notions tels que "Tiers-Monde", qui ne correspond plus à grand chose. Ne serait-ce que du point de vue de l'espérance de vie (graph : [Gapminder](https://www.gapminder.org/tools/#$chart-type=bubbles)) :
+
+![](./img/gapminder_fosse.png)
+
+---
+
+### Exemple : le "Grand remplacement"
+
+Importée en France par Renaud Camus et relayé par des polémistes comme Eric Zemmour, la thèse du *Grand remplacement* postule que l'immigration "massive" combinée à la fertilité des populations étrangères amènerait à terme à ce que la majorité de la population soit "d'origine étrangère".
+
+**Où est l'instinct du fossé ?**
+
+Cette thèse postule qu'il existerait en France deux populations nettement distinctes, les *Français·e·s* et les *étranger·ère·s*, l'une pouvant prendre (démographiquement) l'ascendant sur l'autre.
+
+Ce qui pourrait être le cas ...
+
+--
+
+... si nous étions dans l'Afrique du Sud du temps de l'Apartheid et que les populations ne se mélangeaient pas. Comme le détaillait le démographie Hervé Le Bras [dans une note pour la fondation Jean Jaurès](https://jean-jaures.org/nos-productions/questions-de-migration), ce n'est pas du tout le cas :
+* 10 % des enfants naissent de deux parents immigrés ;
+* 60 % n’ont ni parent ni grand-parent immigré ;
+* 30 % ont dans leur ascendance à deux degrés à la fois des immigrés et des non-immigrés.
+
+
+---
+
+### 2. L'instinct de négativité
+
+"Tout va mal", "tout se dégrade", "c'était mieux avant" ...
+
+Le négativisme repose sur une somme de mécanismes classiques qu'il entretient :
+* nostalgie ;
+* passéisme ;
+* méconnaissance de l'histoire ;
+* mythification (idée d'un "Âge d'Or").
+
+---
+
+### 3. L'instinct de la ligne droite
+
+"Si ça monte, c'est que ça va continuer !"
+
+L'idée d'une croissance infinie et inarrêtable est omniprésente dans notre société. Qu'il s'agisse d'indicateurs positifs (la croissance, l'espérance de vie, etc.) ou d'indicateurs négatifs (les intempéries, les maladies infectieuses ...).
+
+Grand classique du genre : la population mondiale "explosive". Une intuition démentie par toutes les projections démographiques (ici, [celles de l'ONU](https://population.un.org/wpp/Graphs/Probabilistic/POP/TOT/900)) :
+.center[
+![](./img/un_pop_projection.png)
+]
+---
+
+#### Exemple : la grippe porcine
+
+.pull-left[
+Début 2009, une épidémie de grippe porcine se déclare et fait plusieurs milliers de morts. La panique s'empare des médias, c'est le nouvel Ebola, la maladie va décimer la population mondiale.
+
+Selon les calculs d'Hans Rosling, sur une période de deux semaines en 2014, 253442 articles ont été écrit sur ce sujet pour ... 31 victimes. Dans la même période, 63066 avaient succombé à la tuberculose avec une couverture médiatique quasi nulle.
+
+Un aticle de synthèse sur le sujet : [France Info TV, juin 2019](https://www.francetvinfo.fr/monde/asie/l-article-a-lire-pour-comprendre-l-epidemie-de-peste-porcine-qui-sevit-en-asie_3479583.html).
+]
+
+.pull-right[
+Quelques années plus tard, la grippe porcine a été diagnostiquée comme totalement inoffensive pour l'homme (même en cas de consommation de charcuterie contaminée). Les conséquences réellement dommageables sont celles redoutées pour la filière porcine. Il s'agit donc plus d'un problème économique dans l'élevage que d'un problème de santé publique.
+![](./img/grippe_porcine.png)
+Source : [CNews](https://www.cnews.fr/monde/2019-11-12/apres-labattage-de-47000-porcs-victimes-de-lebola-des-cochons-une-riviere-maculee), 12/11/2019.]
+
+---
+
+### 4. L'instinct de peur
+
+"Les rues de Paris ne sont plus sûres", "les tueurs rodent", "Internet est plein de prédacteurs", etc.
+
+.center[
+![](https://media.giphy.com/media/UlHOx3BNED4Jy/giphy.gif)
+]
+
+L'hypothèse dramatique de risques omniprésents, invisibles et (bien sûr) mortels peuple notre imaginaire... alors que nos conditions de sécurité n'ont jamais été aussi grande et notre espérance de vie aussi élevée.
+
+Les causes de mortalité les plus courantes sont bien connues et plutôt banales, comme le rappelait [Le Monde le 1er novembre 2019](https://www.lemonde.fr/les-decodeurs/article/2019/11/01/accidents-cancers-maladies-cardiaques-de-quoi-meurt-on-en-france_6017741_4355770.html).
+
+---
+
+#### Exemple
+
+.pull-left[
+![](./img/requin_menace.png)
+
+Source : [Le Parisien, 24/03/2019](http://www.leparisien.fr/environnement/le-requin-super-predateur-en-danger-pourquoi-il-est-menace-de-disparition-24-03-2019-8038590.php)]
+
+.pull-right[
+[Des campagnes d'abattages en Nouvelle-Calédonie](https://la1ere.francetvinfo.fr/nouvellecaledonie/deferlante-reactions-apres-abattage-requins-bouledogues-720264.html), aux messages catastrophistes, les requins semblent être devenus les pires ennemis de l'homme.
+
+Mais, à votre avis, quel est l'animal qui tue le plus d'êtres humains ?
+]
+
+---
+
+#### Le moustique, serial killer
+
+.pull-left[Selon [les données compilés par la fondation Bill Gates](https://www.gatesnotes.com/Health/Most-Lethal-Animal-Mosquito-Week) (tirée de l'OMS), le requin n'arrive pas à la cheville des hippopotames, des vers, des chiens ... et surtout des moustiques !
+
+La raison s'explique d'un simple fait : la plupart des animaux ne tuent pas directement mais par les maladies dont ils sont les vecteurs.]
+
+.pull-right[
+![](./img/deadliestanimals.jpg)
+]
+---
+
+### 5. L'instinct de taille
+
+"C'est énorme !", "C'est beaucoup !", "C'est trop !", "Ce n'est pas assez !" ...
+
+Sans échelles ni comparaison, les valeurs absolues ne signifient rien. Prenez la température qu'il fait aujourd'hui : chaud ? Froid ? Comment pouvez-vous le dire si vous n'avez pas de référentiel : plus froid qu'hier, que l'année dernière ou qu'au Cercle polaire ?
+
+Il en est de même pour les indicateurs économiques, démographiques ou environnementaux. Deux mille milliards de dette publique, c'est *"beaucoup"* rapporté à quoi ?
+
+Dans l'absolu, les valeurs absolues ne veulent rien dire.
+
+---
+
+#### "Beaucoup" de CO2
+
+A l'occasion de la Cop25, le journal Les Echos a publié [une analyse visuelle des données sur l'émission mondiale de CO2](http://media.lesechos.fr/infographie/cartogrammes-cop25/). Au premier rang, la Chine avec 11.255 milliards de tonnes par an. C'est *"beaucoup"* ... dans l'absolu ! Mais rapporté à la population ou au PIB, le plus émetteur devient l'archipel de Palau, dans le Pacifique, peuplée de 21729 habitant·e·s. Alors, c'est *"beaucoup"* ou pas ?
+
+.pull-left[
+![](./img/co2_totales.png)
+]
+
+.pull-right[
+![](./img/co2_hab.png)
+]
+
+---
+
+### 6. L'instinct de généralisation
+
+*"Puisque ça se passe comme ça pour untel / ici, ça doit être pareil ailleurs !"*
+
+Ca serait tellement pratique ... mais c'est souvent faux !
+
+---
+
+### 7. L'instinct de la destinée
+
+*"C'est comme ça et puis c'est tout"*. Quoi ? Hé bien tout ! Le développement économique, les moeurs, la démographie, l'économie, la technique ... Pourquoi ? Hé bien parce que ce sont *"eux"*, dont ça se passe comme ça. Qui ça *"eux"* ? Faîtes votre choix !
+* Les Africain·e·s ;
+* Les musulman·e·s ;
+* Les pauvres ;
+* et qui vous voudrez.
+
+L'assignation d'une catégorie de population à un destin tracé croise deux biais déjà rencontrés : **l'instinct de fossé** (qui marque une différence nette entre l'observateur·rice et d'autres personnes) et **l'instinct de la ligne droite** (les choses vont comme ça, pourquoi changeraient-elles ?).
+
+--
+
+Alors, selon vous, quel est le pays qui a connu la plus brutale réduction de sa fertilité ces cinquantes dernières années ?*
+
+.footnote[\* C'est peut-être une question piège ...]
+
+---
+.center[
+#### Exemple : l'Iran, la transition démographique accélérée
+
+![](./img/fertilite_iran.png)
+]
+
+.footnote[Source : [taux de fertilité (naissance par femme en âge de procréer), Banque Mondiale](https://data.worldbank.org/indicator/SP.DYN.TFRT.IN/).]
+
+---
+
+### 8. L'instinct de perspective unique
+
+*"J'ai une très bonne source"*, *"Selon une étude américaine"*, *"... prouve une expérience menée par un laboratoire ..."*, etc.
+
+Les formules d'autorité aident à défendre la légitimité d'un point de vue, d'une conclusion ou d'un fait. Mais la connaissance ne naît ni du consensus, ni d'une seule source.
+
+Chaque sondage est réalisé dans un contexte particulier, chaque étude avec une méthodologie spécifique, chaque enquête statistique dans un but précis ... la variété de méthode, de moyens et d'objectifs peut conduire à des résultats très différents.
+
+C'est l'accumulation, la comparaison et la confrontation de ces résultats qui donne une image utile de la réalité et non le ralliement à une perspective prétendument universelle.
+
+---
+
+### 9. L'instinct du blâme
+
+Ca doit bien être la faute de quelqu'un ou de quelque chose.
+
+De toute façon, il y a toujours **UN COUPABLE**.
+
+Il suffit de relier les points :
+
+.pull-left[
+.right[
+les immigré·e·s •
+
+les pauvres •
+
+les riches •
+
+les journalistes •
+
+les homosexuel·le·s •
+
+les fonctionnaires •
+]
+]
+
+.pull-right[
+• le chômage
+
+• la dette
+
+• les inégalités
+
+• la montée des extrêmes
+
+• le changement climatique
+
+• les échecs à l'Eurovision
+]
+
+--
+
+En vérité, c'est souvent un peu plus compliqué que ça : personne n'agit dans le vide, isolément, sans règles ou contraintes. Il existe des systèmes.
+
+---
+
+background-image: url("https://media.giphy.com/media/rwQuLdbybuD6M/giphy.gif")
+
+
+### 10. L'instinct d'urgence
+
+Merci de vous faire un avis rapidement sur ce dernier instinct dramatique car ... NOUS MANQUONS CRUELLEMENT DE TEMPS !
+
+---
+
+
+background-image: url("https://media.giphy.com/media/LRDHTosVVYARa/giphy.gif")
+class: center, top, inverse
+
+# 3. L'approche factuelle
+
+---
+
+## Quelques principes de mise en perspective
+
+.pull-left[
+Dans son ouvrage, Hans Rosling suggère plusieurs pistes pour contrer les instincts dramatiques :
+1. identifier la majorité, pour éviter l'instinct du fossé ;
+2. guetter les bonnes nouvelles, pour contrer l'instinct de négativité ;
+3. penser aux lignes courbes, pour éviter l'instinct de ligne droite ;
+4. calculer les risques, pour éviter l'instinct de peur, etc.
+
+Nous vous proposons quelques méthodes spécifiques pour mobiliser les données et contrer ces instincts.
+]
+
+.pull-right[
+![](./img/rules_of_thumbs.jpg)
+]
+
+---
+
+### Méthode 1 : calculer (les proportions)
+
+Les valeurs absolues ne renseignent sur rien si elles ne sont pas mises en perspectives. Une simple division peut parfois faire l'affaire !
+
+.center[
+![](https://media.giphy.com/media/3o7ZeIMUTsHQFoBbtm/giphy.gif)
+]
+
+**Pour parler de changement climatique**, certains sceptiques de l'origine humaine de ce phénomène soulignent le rôle que peuvent jouer les volcans dans les rejets de gaz à effet de serre. Le chiffre est là : entre 0.1 à 0.5 gigatonnes (GT) pas an suivant les études, sacré panache !
+
+Sauf que les émissions humaines atteignaient 36.8 GT en 2017 et 37 GT en 2018, soit [100](https://www.liberation.fr/sciences/2019/10/01/les-activites-humaines-emettent-chaque-annee-100-fois-plus-de-co2-que-l-activite-volcanique_1754850) à [150 fois](https://www.sciencesetavenir.fr/nature-environnement/pollution/question-de-la-semaine-combien-de-tonnes-de-co2-sont-rejetees-par-les-volcans-en-activite-dans-le-monde_122102) plus que nos chers cratères. CQFD.
+
+---
+
+### Méthode 2 : comparer (les équivalents)
+
+Une autre méthode de mise en perspective consiste à ramener un chiffre ou un fait dans son contexte.
+
+La comparaison peut se faire par catégorie (phénomènes ou sujets de même nature), par lieu ou par période. La plupart des indicateurs micro-économiques et macro-économiques sont ainsi systématiquement accompagnés de leurs comparaisons "d'une année sur l'autre" (*"year on year"*, dans la langue de Jeff Bezos).
+
+**Pour revenir au climat**, c'est une façon de contrer le classique *"vous avez vu ce froid, il est où votre changement climatique ?"* Ce petit pic de glace aura beau faire, les 20 années les plus chaudes jamais mesurées (depuis 1850) l'ont été dans les  23 dernières années selon [l'Organisation Mondiale de la météorologie](https://www.lexpress.fr/actualite/societe/environnement/2015-2018-les-4-annees-les-plus-chaudes-jamais-enregistrees_2061090.html).
+
+---
+
+### Méthode 3 : décortiquer (les systèmes)
+
+Isoler une conséquence et en isoler une cause, c'est oublier toute la tuyauterie qui relie les deux bouts. Or, à chaque coude, à chaque robinet, des décisions sont prises qui orientent parfois le flux des événements.
+
+**Finissons sur les émissions de CO2**, la Chine est bel et bien le premier émetteur de CO2 au monde en valeur absolu. Mais, pour qui sont ces cheminées qui soufflent au dessus de leurs têtes ? Si l'on calcule la part de ces émissions liées à des activitées d'exportation, [le bilan du pays le plus peuplé du monde chuterait alors de 13](https://www.novethic.fr/actualite/environnement/climat/isr-rse/omissions-de-co2-le-vrai-bilan-carbone-des-pays-occidentaux-143664.html).
+
+Cette notion de **CO2 importé / CO2 exporté** fait d'un autre côté gonfler le bilan carbone des pays les plus consommateurs. Suivant ce calcul, l'empreinte carbone de la France grimperait de 46%. Une fois rattaché aux circuits de consommation, la question de l'empreinte environnementale prend un tout autre chemin.
+
+C'est la même idée que l'on trouve dans la notion d'**eau virtuelle** : jeter de la nourriture, c'est gâcher de l'eau dans le pays qui l'a cultivé. [Beaucoup d'eau](https://www.smithsonianmag.com/science-nature/how-trashing-food-wastes-water-too-180957239). Là encore, les systèmes éclairent de manière très différentes des données un peu trop catégoriques.
+
+
+---
+
+background-image: url("https://media.giphy.com/media/Jz53cfDbQj9q8/giphy.gif")
+class: center, top, inverse
+
+# 4. Mise en pratique
+
+---
+
+
+
+### Faisons pièce au sensationnalisme !
+
+Je vous propose un exercice de démantèlement de la panique : quatre sujets polémiques traités de manière catastrophiste ... qu'il s'agit de décortiquer pour en ressortir une ligne d'action à destination des vrais problèmes !
+
+En pratique, je vous propose une méthodologie en trois phrases :
+1. **sourcer / analyser** : aller à l'origine des données utilisées, des chiffres, de la méthode ... et voir ce sur quoi repose la panique ;
+2. **calculer / comparer** : reprendre les données et les resituer. A quoi se réfère cette proportion ? Qu'en est-il pour d'autres populations ? Est-ce une caus ou une conséquence ?
+3. **recadrer / reformuler** : pourquoi ce n'est pas le *vrai* problème ? Et, s'il y en a un, quel est-il ?
+
+Pour vous exercer, je vous propose quatre sujets tout à fait apaisés :
+
+--
+
+1. la menace terroriste en France ;
+2. les effets de la consommation de viande sur la santé ;
+3. l'insécurité en ville ;
+4. l'effet de l'immigration sur le chômage.
+
+---
+
 
 
 class: inverse, center, middle
