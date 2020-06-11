@@ -16,3 +16,9 @@
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
 * **Support** : [Factualité, ou comment corriger ses mauvaises intuitions par les données](https://datactivist.coop/infolab_poitiers/facto_sandwich/)
+
+### Data' Apéro - 16/06/2020
+
+* **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
+* **Lieu** : Google Meet [inscription obligatoire](https://docs.google.com/forms/d/e/1FAIpQLSf1VzapYdN-3rPPv6p6coD5mG2Oie_-yHbHc73nlf12wO1obQ/viewform).
+* **Support** : [Data humanism ou l'art d'exploser par le visuel la complexité des données](https://datactivist.coop/infolab_poitiers/datapero_datahumanism/)
