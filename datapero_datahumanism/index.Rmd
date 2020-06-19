@@ -250,7 +250,7 @@ background-image: url("./img/roomofchange.jpg")
 ### Les *data portraits*
 
 .pull-left[
-Antithèse des infographies de groupe, les *data portraits* de Giorgia Lupi mêle quelques principes clefs du data humanism :
+Antithèse des infographies de groupe, les *data portraits* de Giorgia Lupi mêlent quelques principes clefs du data humanism :
 * une collecte de données non standard (souvent en auto-collecte) ;
 * des visualisations imbriquées, non linéaire ;
 * l'accent sur l'individualité et l'originalité ;
