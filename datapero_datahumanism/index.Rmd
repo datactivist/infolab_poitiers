@@ -211,7 +211,7 @@ class: top, left
 
 ### Le "peak infographics"
 
-Dans [Data Humanism, The Revolution will be Visualized](http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold) (publiéLupi dans la revue PrintMag), Giorgia Lupi dénonce l'avènement du "peak infographics", point de saturation des *"datavisualisations de la première vague"* :
+Dans [Data Humanism, The Revolution will be Visualized](http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold) (publié par Lupi dans la revue PrintMag), Giorgia Lupi dénonce l'avènement du "peak infographics", point de saturation des *"datavisualisations de la première vague"* :
 
 > *"Ce qui a rendu les infographies marketing si populaires est probablement leur plus grande contradiction : la fausse affirmation selon laquelle quelques pictogrammes et une poignée de gros chiffres ont le pouvoir inné de "simplifier la complexité"."*
 
