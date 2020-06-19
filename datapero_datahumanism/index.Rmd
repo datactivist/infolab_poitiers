@@ -385,7 +385,7 @@ class: inverse
 
 ### Exercice : autoportrait de confinement
 
-Le confinement a été une expérience paradoxale : collective par rapport, elle a constitué un souvenir particulier pour chacun·e du fait de situations personnelles. Situation professionnelle, conjugale, état de santé, habitat ...
+Le confinement a été une expérience paradoxale : collective par construction, elle a constitué un souvenir particulier pour chacun·e du fait de situations personnelles. Situation professionnelle, conjugale, état de santé, habitat ...
 
 **Chaque confinement, malgré des règles partagées, constitue une expérience unique et, à cet égard, un parfait matériau d'autocollecte de données !**
 
