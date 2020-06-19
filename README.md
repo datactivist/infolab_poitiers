@@ -21,4 +21,4 @@
 
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Lieu** : Google Meet [inscription obligatoire](https://docs.google.com/forms/d/e/1FAIpQLSf1VzapYdN-3rPPv6p6coD5mG2Oie_-yHbHc73nlf12wO1obQ/viewform).
-* **Support** : [Data humanism ou l'art d'exploser par le visuel la complexité des données](https://datactivist.coop/infolab_poitiers/datapero_datahumanism/)
+* **Support** : [Data humanism ou l'art d'explorer par le visuel la complexité des données](https://datactivist.coop/infolab_poitiers/datapero_datahumanism/)
