@@ -188,7 +188,7 @@ Aux grandes masses anonymes, Giorgia Lupi préfère les histoires personnelles. 
 background-image: url("./img/bruises.jpg")
 class: bottom, left
 
-### Le soucis du détail
+### Le souci du détail
 
 .pull-left[
 ... ou de personnes qui l'entourent dont elle capte les histoires et expériences, semées de détails.
