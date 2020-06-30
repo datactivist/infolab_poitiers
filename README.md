@@ -1,5 +1,26 @@
 ## Les événements
 
+
+### Data' Sandwich - 19/01/2017 (Cobalt Poitiers)
+
+* **Intervenant** : [Samuel Goëta (Datactivist)](http://twitter.com/samgoeta)
+* **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
+* **Support** : [Les données crowdsourcées et OpenStreetMap](https://github.com/datactivist/formation_crowdsourcing_poitiers/blob/master/Formation%20Poitiers%20crowdsourcing.pdf)
+
+Open Government: après les données, ouvrons l'action publique !
+
+### Data' Sandwich - 13/04/2017 (Cobalt Poitiers)
+
+* **Intervenant** : [Samuel Goëta (Datactivist)](http://twitter.com/samgoeta)
+* **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
+* **Support** : [Open Government: après les données, ouvrons l'action publique !](https://github.com/datactivist/infolab_poitiers/edit/master/README.md)
+
+### Data' Sandwich - 15/06/2017 (Cobalt Poitiers)
+
+* **Intervenant** : [Samuel Goëta (Datactivist)](http://twitter.com/samgoeta)
+* **Lieu** : [Cobalt, 5 rue Victor Hugo Poitiers](https://www.openstreetmap.org/node/1392914243).
+* **Support** : [Comment la commande publique devient transparente grace à l’open data ?](https://datactivist.coop/formation-marches/#1)
+
 ### Data' Sandwich - 13/08/2018 (Cobalt Poitiers)
 
 * **Intervenant** : [Etienne Pichot-Damon (Datactivist)](http://twitter.com/Etienne010101)
