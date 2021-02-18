@@ -1,0 +1,73 @@
+---
+title: "Self data"
+subtitle: ""
+author: "Sylvain Lapoix, Datactivist"
+date: "InfoLab Poitiers - 25/02/2021"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
+      countIncrementalSlides: false
+params:
+  event: Infolab Poitiers - Self Data - 25/02/2021
+  slug: infolab_poitiers/datasandwich_self-data
+    
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+<style type="text/css">
+
+
+.yellow-h{
+   background: #ffff88;
+}
+
+.blue-h{
+   background: #83c7fc;
+}
+
+</style>
+
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+
+background-image: url("https://media.giphy.com/media/Lm62AlSEQqhimpM59W/giphy.gif")
+class: center, top, inverse
+
+## La présentation sera intégralement disponible jeudi 25 février !
+
+---
+
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop) ou [@sylvainlapoix](https://twitter.com/sylvainlapoix) sur Twitter
