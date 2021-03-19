@@ -43,3 +43,17 @@ Open Government: après les données, ouvrons l'action publique !
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Lieu** : Google Meet [inscription obligatoire](https://docs.google.com/forms/d/e/1FAIpQLSf1VzapYdN-3rPPv6p6coD5mG2Oie_-yHbHc73nlf12wO1obQ/viewform).
 * **Support** : [Data humanism ou l'art d'explorer par le visuel la complexité des données](https://datactivist.coop/infolab_poitiers/datapero_datahumanism/)
+
+
+### Data'Sandwich - 17/12/2020
+
+* **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
+* **Support** : [Données situées, ou comment identifier les relations d de pouvoir dans les données](https://datactivist.coop/infolab_poitiers/datasandwich_situateddata) ;
+* **Rattrapage** : webinaire disponible [en intégralité sur le compte Youtube de Cobalt Poitiers](https://www.youtube.com/watch?v=0FQSPY5yFMY).
+
+
+### Data'Sandwich - 25/02/2021
+
+* **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
+* **Lieu** : Zoom (lien à venir).
+* **Support** : [Self data : reprendre le contrôle de ses données pour soi et pour l'intérêt général](https://datactivist.coop/infolab_poitiers/datasandwich_selfdata/).
