@@ -55,5 +55,10 @@ Open Government: après les données, ouvrons l'action publique !
 ### Data'Sandwich - 25/02/2021
 
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
-* **Lieu** : Zoom (lien à venir).
 * **Support** : [Self data : reprendre le contrôle de ses données pour soi et pour l'intérêt général](https://datactivist.coop/infolab_poitiers/datasandwich_selfdata/).
+
+
+### Data'Sandwich - 29/09/2022
+
+* **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
+* **Support** : [Numérique responsable](https://datactivist.coop/infolab_poitiers/datasandwich_numeriqueresponsable/#1).
