@@ -66,4 +66,4 @@ Open Government: après les données, ouvrons l'action publique !
 ### Data'Sandwich - 29/09/2023
 
 * **Intervenante** : Anne-Laure Donzel (Datactivist)
-* **Support** : [Identité numérique](https://datactivist.coop/infolab_poitiers/datasandwich_identitenumerique)
+* **Support** : [Identité numérique](https://datactivist.coop/infolab_poitiers/datasandwich_identitenumerique/presentation_05102023)
