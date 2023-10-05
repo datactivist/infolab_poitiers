@@ -138,8 +138,9 @@ class: center, middle, inverse
 ### Vers l'émergence d'un .red[besoin de régulation] 
 
 .pull-left[
-- Apporter de la confiance sur la sphère publique : historiquement des règlement sur l'économie numérique puis règlement européen Eidas
-- Apporter de confiance sur la sphère privée : RGPD et loi Informatique et libertés
+Apporter de la confiance sur la sphère publique et sur la sphère privée  : 
+- Règlement sur l'économie numérique puis règlement européen Eidas
+- RGPD et loi Informatique et libertés
 
 ]
 
