@@ -63,7 +63,7 @@ Open Government: après les données, ouvrons l'action publique !
 * **Intervenant** : [Sylvain Lapoix (Datactivist)](http://twitter.com/sylvainlapoix)
 * **Support** : [Numérique responsable](https://datactivist.coop/infolab_poitiers/datasandwich_numeriqueresponsable/#1).
 
-### Data'Sandwich - 29/09/2023
+### Data'Sandwich - 05/10/2023
 
 * **Intervenante** : Anne-Laure Donzel (Datactivist)
 * **Support** : [Identité numérique](https://datactivist.coop/infolab_poitiers/datasandwich_identitenumerique/presentation_05102023)
